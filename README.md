@@ -1,22 +1,31 @@
 # ElectricityDemandML
 
-##Business Context:
-One of leading electricity Distribution Company would like to understand demand for electricity for
-the next 1-2 years to manage the production of electricity and managing the vendors for the same. It
-is one of the important exercises to getting accurate estimation of demand so that they can procure
-or produce the electricity as per the demand.
-Available Data:
-The data of monthly electricity consumption available starting from January 1973 to December 2019.
-We need to forecast the demand for next two years.
-1. Date – Month & Year
-2. Electricity Consumption – Electricity consumption in Trillion Watts
+This repository contains a time series analysis project focused on forecasting electricity demand for a leading electricity distribution company. The goal of this project is to accurately estimate electricity demand for the next 1-2 years to facilitate efficient production and vendor management.
+
+Business Context:
+
+Understanding electricity demand is crucial for managing production and procurement effectively. The availability of historical monthly electricity consumption data from January 1973 to December 2019 provides an opportunity to forecast future demand accurately.
+
 Business Objective:
-a. Need to forecast the demand of electricity for next 1-2 years.
-b. Calculate error metrics (RMSE, RMSPE, MAPE)
-c. Compare various models including Decomposition, ETS models, ARIMA/SARIMA Models with
-various parameters etc…
+
+a. Forecast Electricity Demand: Predict electricity demand for the next 1-2 years based on historical consumption data.
+
+b. Error Metrics Calculation: Calculate error metrics such as Root Mean Square Error (RMSE), Root Mean Square Percentage Error (RMSPE), and Mean Absolute Percentage Error (MAPE) to evaluate the accuracy of the forecasting models.
+
+c. Model Comparison: Compare various time series forecasting models, including Decomposition, ETS (Error, Trend, Seasonality) models, and ARIMA/SARIMA (AutoRegressive Integrated Moving Average/Seasonal ARIMA) models with different parameters to identify the most suitable model.
+
+Available Data:
+
+The dataset includes monthly electricity consumption data from January 1973 to December 2019, with the following columns:
+
+Date: Month and Year
+Electricity Consumption: Electricity consumption in Trillion Watts
 Expected Outputs:
-a. Required to submit detailed code with proper comments
-b. Provide model validation metrics/accuracy metrics
-c. Provide demand estimation for next 1-2 years on monthly basis
-d. Provide which model you selected and reason for selection
+
+a. Detailed Code: The repository includes detailed code with proper comments for data preprocessing, model training, and evaluation.
+
+b. Model Validation Metrics: Provide accuracy metrics such as RMSE, RMSPE, and MAPE to validate the forecasting models.
+
+c. Demand Estimation: Provide demand estimation for the next 1-2 years on a monthly basis using the selected forecasting model.
+
+d. Model Selection: Clearly state the selected forecasting model and provide reasons for its selection based on performance metrics and other considerations.
